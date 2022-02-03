@@ -1,0 +1,11 @@
+FrameworkJS (Depends on)
+CommonDesign (Depends on)
+Eventlr (Depends on)
+Link to EveryoneCan (Depends on)
+Soon: Floflis App Packager, DML, FrameworkJS for hybrid apps, and more; subscribe
+
+Sites list: fmk, ht, blckt
+Tech for Businness (paid wifi, checkin wifi, crypto, QR codes)
+Social profiles
+Social buttons
+P Kit

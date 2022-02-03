@@ -95,16 +95,16 @@ a button{text-decoration:none}
 a > li:hover{font-weight:normal!important}
 a > button:hover{font-weight:normal!important}
 
-.header,header{background:#00A185;position:fixed;top:0;left:0;width:100%;height:60px;border-bottom: 1px solid rgba(0, 0, 0, 0.5);box-shadow: 0 0 15px 1px black;color:#fff;padding-left:20px;z-index:5000}
+.header,header{background:#00A185;position:fixed;top:0;left:0;width:100%;height:53px;border-bottom: 1px solid rgba(0, 0, 0, 0.5);box-shadow: 0 0 15px 1px black;color:#fff;padding-left:20px;z-index:5000}
 .header,header:hover{box-shadow:0px 0px 25px 5px #000}
 .header,header:active{box-shadow:0px 0px 25px 9px #000}
 
-.logo, logo{position:absolute;height:60px;font-size: 45px;opacity:0.5;color:#fff;transition:0.3s cubic-bezier(0.25, 0.8, 0.5, 1)}
-.logo,logo:hover{opacity:1}
+.logo, logo{position:absolute;min-width: 47px;height:52px;font-size: 38px;color:#fff;transition:0.3s cubic-bezier(0.25, 0.8, 0.5, 1);padding: 0 5px 1px 5px;}
+.logo,logo:hover{background-color: rgba(255, 255, 255, 0.12);}
 .logo,logo:active{opacity:0.2}
-.logo, logo .badge{top:-20px;margin-left:-5px;font-size:initial!important}
+.logo, logo .badge{top:-13px;margin-left:-5px;font-size:initial!important}
 
-.content{width:100%;height:calc(100% - 60px);top:60px;position:fixed;overflow-x:hidden;overflow-y:scroll}
+.content{width:100%;height:calc(100% - 53px);top:53px;position:fixed;overflow-x:hidden;overflow-y:scroll}
 
 .article,article{margin:15px 8px 8px 8px}
 .comments,comments{margin:15px 8px 8px 8px}
@@ -361,7 +361,7 @@ header nav ul a.active {
 }
 
 header nav ul li div {
-    height: 36px;
+    height: 29px;
     text-align: center;
     font-size: 37px;
 }
@@ -381,8 +381,28 @@ header nav ul li p {
 }
 
 header nav ul li div i {
-    font-size: 35px!important;
-	vertical-align:-2px!important;
+    font-size: 33px!important;
+	vertical-align:0px!important;
+}
+
+header nav ul li.round {
+    margin-top: 3px;
+}
+
+header nav ul li.round div {
+    padding-bottom: 15px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 0px;
+}
+
+header nav ul li.round div i.material-icons {
+    font-size: 28px!important;
+}
+
+header nav ul li.round div img {
+    width: 26px;
+    margin-top: -5px;
 }
 
 .navmenu {
@@ -444,7 +464,7 @@ header nav ul li div i {
 }
 
 .navmenu.fixed {
-    top: calc(0px - -60px);
+    top: calc(0px - -53px);
 	box-shadow: 0 0 15px 1px black;
 }
 .navmenu.fixed:hover {

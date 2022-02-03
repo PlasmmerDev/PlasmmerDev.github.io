@@ -58,7 +58,7 @@ zeroFrame.cmd("serverInfo", {}, (server_info) => {
         body.innerHTML += ''
         break
     case "dark":
-        body.innerHTML += '<link rel="stylesheet" type="text/css" href="css/dark-common.css">'
+        body.innerHTML += '<link rel="stylesheet" type="text/css" href="css/dark-common.css"><link rel="stylesheet" type="text/css" href="css/dark-custom.css">'
         break
     default:
         console.log("Theming not supported. Please upgrade your ZeroNet version.")
