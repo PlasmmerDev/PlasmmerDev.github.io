@@ -32,3 +32,9 @@ button.color{background:#602a80;color:#fff;font-weight:bold;padding:10px;font-si
 button.color:hover{background:#fff;color:#602a80}
 
 .footer,footer{background:#602a80}
+
+.carousel-caption {
+  background: #ffffff7d;
+  padding: 5px;
+  border-radius: 10px;
+}
